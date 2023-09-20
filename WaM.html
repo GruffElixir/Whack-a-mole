@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whack-a-Mole!</title>
+    <link rel="stylesheet" href="WaM.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <!-- <img
+        src="https://i.pinimg.com/originals/e2/51/a8/e251a8984e2e17e95d64fa982de1cbf0.gif"
+      /> -->
+      <h class="title">Whack-a-Mole!</h>
+    </div>
+    <div class="main">
+      <button class="animate__animated animate__bounce start">START</button>
+      <button class="stop">STOP</button>
+      <div class="score">
+        <div class="scoreTitle">Score</div>
+        <div class="points">0</div>
+      </div>
+      <div onmousedown="return false" class="game blur">
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+        <img src="noMole.svg" />
+      </div>
+    </div>
+  </body>
+  <script src="WaM.js"></script>
+</html>

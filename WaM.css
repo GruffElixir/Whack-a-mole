@@ -1,0 +1,74 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/01/18/38/background-1789175_1280.png);
+}
+.header > img {
+  height: 50px;
+}
+.title {
+  font-family: scripto;
+  color: yellow;
+  font-size: 500%;
+  margin-left: 30%;
+  text-align: center;
+}
+@font-face {
+  font-family: scripto;
+  src: url("Scripto-2OR2v.ttf");
+}
+.main {
+  padding: 100px;
+  padding-top: 20px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: rgb(254, 206, 35);
+  opacity: 1;
+  width: 900px;
+  cursor: url(hammer30.png), default;
+}
+.cursor90 {
+  cursor: url(hammer90.png), default;
+}
+.game {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px 100px 100px;
+}
+.blur {
+  filter: blur(3px);
+}
+.game > img {
+  margin: 20px;
+}
+.scoreTitle {
+  text-align: center;
+}
+.points {
+  text-align: center;
+}
+.start {
+  display: float;
+  top: 400px;
+  left: 800px;
+  height: 40px;
+  width: 100px;
+  border: 39px;
+  border-color: burlywood;
+  border-radius: 20px;
+  font-size: medium;
+  color: rgb(255, 238, 0);
+  background-image: linear-gradient(to right, rgb(255, 66, 97), purple);
+}
+.stop {
+  display: none;
+  top: 400px;
+  left: 800px;
+  height: 40px;
+  width: 100px;
+  border: 0;
+  border-radius: 20px;
+  font-size: medium;
+  color: rgb(255, 238, 0);
+  background-image: linear-gradient(to right, rgb(255, 66, 97), purple);
+}
